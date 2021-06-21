@@ -1,0 +1,43 @@
+@font-face {
+ font-family: "KyivType Sans-Bold";
+ src: url("../fonts/Dmitry Rastvortsev - KyivType Sans Bold.woff2") format("woff2");
+}
+
+@font-face {
+ font-family: "KyivType Sans-Bold3";
+ src: url("../fonts/Dmitry Rastvortsev - KyivType Sans Bold3.woff2") format("woff2");
+}
+
+@font-face {
+ font-family: "KyivType Sans-Light";
+ src: url("../fonts/Dmitry Rastvortsev - KyivType Sans Light.woff2") format("woff2");
+}
+
+@font-face {
+ font-family: "KyivType Sans-Medium";
+ src: url("../fonts/Dmitry Rastvortsev - KyivType Sans Medium.woff2") format("woff2");
+}
+
+@font-face {
+ font-family: "KyivType Sans-Regular";
+ src: url("../fonts/Dmitry Rastvortsev - KyivType Sans Regular.woff2") format("woff2");
+}
+
+.macbook-pro-12 .e-mail-f0eZa5 {
+  background: transparent;
+  border:  none;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: italic;
+  font-weight: 400;
+  height: auto;
+  left: 843px;
+  letter-spacing: 0.00px;
+  line-height: 32.7px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3287px;
+  white-space: nowrap;
+  width: 505px;
+}
