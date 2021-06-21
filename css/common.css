@@ -1,3 +1,7 @@
+* {
+  user-select: none;
+}
+
 @font-face {
  font-family: "KyivType Sans-Bold";
  src: url("../fonts/Dmitry Rastvortsev - KyivType Sans Bold.woff2") format("woff2");
