@@ -45,3 +45,19 @@
   white-space: nowrap;
   width: 505px;
 }
+
+.leftarrow {
+  transition: 250ms;
+  opacity: 25%;
+}
+
+
+.rightarrow {
+  transition: 250ms;
+  opacity: 25%;
+
+}
+
+.clickable {
+  cursor:  pointer;
+}
