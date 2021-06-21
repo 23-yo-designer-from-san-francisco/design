@@ -9,10 +9,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const pic_count = pictures.length
     let iter = pic_count - 1;
     
-    let line = document.getElementById('line');
+    let line;
+    let first, last;
 
     if (map) {
+        line = document.getElementById('line');
         line.style.visibility = 'hidden';
+        first = pictures[pic_count-1];
+        last = pictures[0];
     }
 
     left.addEventListener('mouseover', () => {
@@ -26,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         pictures[iter % pic_count].style.visibility = 'hidden';
         pictures[++iter % pic_count].style.visibility = 'visible';
         if (map) {
-            if (iter == pic_count - 1 || iter == 0 || iter == pic_count) {
+            if (first.style.visibility == 'visible' || last.style.visibility == 'visible') {
                 line.style.visibility = 'hidden';
             } else {
                 line.style.visibility = 'visible';
@@ -47,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         iter = --iter < 0 ? pic_count - 1 : iter;
         pictures[iter % pic_count].style.visibility = 'visible';
         if (map) {
-            if (iter == pic_count - 1 || iter == 0) {
+            if (first.style.visibility == 'visible' || last.style.visibility == 'visible') {
                 line.style.visibility = 'hidden';
             } else {
                 line.style.visibility = 'visible';
