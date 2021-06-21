@@ -5,8 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600italic,400,700,500,600,700italic,400italic');
 
 * {
-  user-select: none;
-
+  /*user-select: none;*/
 box-sizing: border-box;
 }
 .align-self-flex-center {
@@ -292,6 +291,7 @@ outline: none;
   width: 244px;
 }
 .macbook-pro-12 .ellipse-5-f0eZa5 {
+  cursor: pointer;
   background-color: var(--white);
   border-radius: 376px/106px;
   height: 212px;
@@ -716,16 +716,7 @@ outline: none;
   top: 0px;
   width: 954px;
 }
-.macbook-pro-12 .rectangle-92-XBxoxj {
-  background-color: var(--spring-green);
-  height: 90px;
-  left: 120px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 363px;
-  transform: rotate(-7.58deg);
-  width: 229px;
-}
+
 .macbook-pro-12 .rectangle-93-XBxoxj {
   background-color: var(--red);
   height: 90px;
@@ -745,6 +736,11 @@ outline: none;
   top: 363px;
   transform: rotate(-7.58deg);
   width: 229px;
+}
+
+.macbook-pro-12 .rectangle-94-XBxoxj :hover {
+  transition: 500ms;
+  background-color: var(--spring-green);
 }
 .macbook-pro-12 .rectangle-95-XBxoxj {
   background-color: var(--white);
@@ -856,6 +852,7 @@ outline: none;
   width: auto;
 }
 .macbook-pro-12 .textlabel-6LhlXL {
+  cursor: pointer;
   background-color: transparent;
   height: auto;
   left: 467px;
@@ -1588,6 +1585,7 @@ outline: none;
   width: 30px;
 }
 .macbook-pro-12 .x-XBxoxj {
+  cursor: pointer;
   background-color: transparent;
   height: auto;
   left: 48px;
@@ -1800,7 +1798,7 @@ outline: none;
 </div>
 <div class="rectangle-60-f0eZa5">
 </div>
-<div class="ellipse-5-f0eZa5 border-1px-black">
+<div class="ellipse-5-f0eZa5 border-1px-black" id="buy-ticket">
 </div>
 <div class="ellipse-6-f0eZa5 border-1px-black">
 </div><div class="textlabel-xNHV9L kyivtypesans-bold3-bold-black-24px">Вольеры</div><div class="textlabel-6LhlXL kyivtypesans-bold3-bold-black-72px">Купить билет</div><div class="x7-495-034-12-32-f0eZa5 montserrat-medium-black-18px">+7 (495) 034-12-32</div><div class="x9002200-f0eZa5 montserrat-medium-black-18px">пн–пт: 9.00–22.00</div><div class="x11002300-f0eZa5 montserrat-medium-black-18px">сб–вс: 11.00–23.00</div><div class="e-mail-f0eZa5">E-mail</div><div class="x1-f0eZa5 montserrat-medium-black-18px">Москва, ул. Пушкина, 1</div><div class="x2021-f0eZa5 montserrat-medium-black-18px">Чудо-Юдо 2021</div><div class="by-f0eZa5 montserrat-medium-black-18px">by Катя Запорожец</div><div class="infozooru-f0eZa5 montserrat-medium-black-18px">info@zoo.ru</div><img class="line-14-f0eZa5" src="data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIyOTUiIHZpZXdCb3g9IjAgMCAxIDI5NSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGxpbmUgeDE9IjAuNSIgeTE9IjIuMTg1NTdlLTA4IiB4Mj0iMC40OTk5ODciIHkyPSIyOTUiIHN0cm9rZT0iYmxhY2siLz4KPC9zdmc+Cg=="><img class="line-16-f0eZa5" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAQSURBVHgBAQUA+v8AAAAAAAAFAAFkeJU4AAAAAElFTkSuQmCC"><img class="line-15-f0eZa5" src="data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iNTM2IiBoZWlnaHQ9IjEiIHZpZXdCb3g9IjAgMCA1MzYgMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGxpbmUgeTE9IjAuNSIgeDI9IjUzNiIgeTI9IjAuNSIgc3Ryb2tlPSJibGFjayIvPgo8L3N2Zz4K"><img class="vector-1-f0eZa5" src="data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMjYiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyNiAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEgMTAuNTk4MUMxLjEwMDUyIDEwLjg2MjIgMS4xODY0NyAxMC45ODU2IDEuNSAxMS4wOTgxSDE5LjE4NjFMMTMuNSAxNi41OTgxQzEzLjMxODkgMTcuMDA1NiAxMy4zMzI4IDE3LjIyMzMgMTMuNSAxNy41OTgxTDE1IDE4LjU5ODFDMTUuMzc3NSAxOC42NDg1IDE1LjYxOTMgMTguNTQxNSAxNiAxOC4wOTgxTDI0LjUgOS41OTgwOUwxNSAxLjA5ODA5QzE0LjYxMDIgMC45NjQzNDEgMTQuMzkxMyAwLjk3MDI5OSAxNCAxLjA5ODA5TDEzIDIuMDk4MDlDMTIuODc0NyAyLjUyMzczIDEyLjg4ODkgMi43Mzg3NCAxMyAzLjA5ODA5TDE5LjE4NjEgOC41OTgwOUgxLjVDMS4yMDIwNSA4LjY2Mzg2IDEuMDY2NTkgOC43MzkzNiAxIDkuMDk4MDlWMTAuNTk4MVoiIHN0cm9rZT0iYmxhY2siLz4KPC9zdmc+Cg=="><img class="line-2-a4F3H4" src="data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMTQ0MCAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8bGluZSB4MT0iLTQuMzcxMTRlLTA4IiB5MT0iMC41IiB4Mj0iMTQ0MCIgeTI9IjAuNDk5ODc0IiBzdHJva2U9ImJsYWNrIi8+Cjwvc3ZnPgo="><img class="line-3-a4F3H4" src="data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h0PSIxIiB2aWV3Qm94PSIwIDAgMTQ0MCAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8bGluZSB4MT0iLTQuMzcxMTRlLTA4IiB5MT0iMC41MDAyNDQiIHgyPSIxNDQwIiB5Mj0iMC41MDAxMTgiIHN0cm9rZT0iYmxhY2siLz4KPC9zdmc+Cg=="><div class="textlabel-nzD4m9 montserrat-semi-bold-black-36px">Кормление колибри</div>
@@ -1813,9 +1811,9 @@ outline: none;
 <div class="group-14-f0eZa5" id="buy-modal">
 <div class="rectangle-91-XBxoxj border-1px-black">
 </div>
-<div class="rectangle-94-XBxoxj">
+<div class="rectangle-94-XBxoxj" id="yes-inactive">
 </div>
-<div class="rectangle-92-XBxoxj">
+<div class="rectangle-92-XBxoxj" id="yes-active">
 </div>
 <div class="rectangle-95-XBxoxj">
 </div>
@@ -1824,4 +1822,5 @@ outline: none;
 </div>
  </div>
     </div>
+    <script type="text/javascript" src="js/index.js"></script>
     </body></html>
