@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let pictures = document.getElementsByClassName('img')
     const pic_count = pictures.length
-    let iter = 4;
+    let iter = pic_count - 1;
 
     left.addEventListener('mouseover', () => {
         leftarrow.style.opacity = '100%';

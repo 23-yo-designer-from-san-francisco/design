@@ -884,29 +884,5 @@
                 <div class="click-right-nwmn1V clickable" id="right"></div>
             </div>
         </div>
-
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.7/dist/html2canvas.min.js"></script>
-        <script type="text/javascript">
-            var createImage = true;
-            window.addEventListener(
-                "message",
-                (event) => {
-                    if (event && event.data && event.data.sender === "take-print-screen" && createImage) {
-                        createImage = false;
-                        html2canvas(document.body).then((canvas) => {
-                            createImage = true;
-                            // document.body.appendChild(canvas)
-                            let imageBase64 = canvas.toDataURL();
-
-                            var myCustomData = { imageBase64 };
-                            var event = new CustomEvent("image-base-64", { detail: myCustomData });
-                            window.parent.document.dispatchEvent(event); //send an event to the parent with the image base64
-                        });
-                    }
-                },
-                false
-            );
-        </script>
-        <script type="text/javascript" src="js/carousel.js"></script>
     </body>
 </html>
