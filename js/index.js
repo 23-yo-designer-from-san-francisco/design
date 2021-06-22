@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
     function close_buy_modal() {
         no_inactive.classList.remove('rectangle-95-XBxoxj-hover');
+        yes_inactive.classList.remove('rectangle-94-XBxoxj-hover');
         no_text.classList.remove('clickable');
         buy_modal.style.visibility = 'hidden';
         shadow.style.visibility = 'hidden';
