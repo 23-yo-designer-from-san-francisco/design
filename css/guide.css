@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600italic,700,500,400italic,700italic,600);
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,500,400italic,700italic);
 
 @keyframes reveal {
     0% {
@@ -9,6 +8,10 @@
     to {
         opacity: 1
     }
+}
+
+* {
+    box-sizing: border-box
 }
 
 .align-self-flex-center {
@@ -192,7 +195,7 @@
     border: 1px solid var(--black)
 }
 
-.macbook-pro-9 {
+.common {
     background-color: var(--white);
     height: 1494px;
     mix-blend-mode: normal;
@@ -202,7 +205,7 @@
     width: 1440px
 }
 
-.macbook-pro-9 .by-u9uWE7 {
+.common .by-u9uWE7 {
     background-color: transparent;
     height: auto;
     left: 1175px;
@@ -216,7 +219,7 @@
     width: 188px
 }
 
-.macbook-pro-9 .click-left-u9uWE7,.macbook-pro-9 .click-right-u9uWE7,.macbook-pro-9 .e-mail-u9uWE7 {
+.common .click-left-u9uWE7,.common .click-right-u9uWE7,.common .e-mail-u9uWE7 {
     background-color: transparent;
     height: 556px;
     left: 110px;
@@ -226,13 +229,13 @@
     width: 600px
 }
 
-.macbook-pro-9 .click-right-u9uWE7,.macbook-pro-9 .e-mail-u9uWE7 {
+.common .click-right-u9uWE7,.common .e-mail-u9uWE7 {
     height: 558px;
     left: 720px;
     top: 404px
 }
 
-.macbook-pro-9 .e-mail-u9uWE7 {
+.common .e-mail-u9uWE7 {
     background: 0 0;
     border: 0;
     color: var(--black);
@@ -250,7 +253,7 @@
     width: 505px
 }
 
-.macbook-pro-9 .ellipse-4-u9uWE7 {
+.common .ellipse-4-u9uWE7 {
     background-color: var(--white);
     border-radius: 101.5px/38.5px;
     height: 77px;
@@ -261,7 +264,7 @@
     width: 203px
 }
 
-.macbook-pro-9 .ellipse-7-u9uWE7,.macbook-pro-9 .ellipse-8-u9uWE7,.macbook-pro-9 .ellipse-9-u9uWE7 {
+.common .ellipse-7-u9uWE7,.common .ellipse-8-u9uWE7,.common .ellipse-9-u9uWE7 {
     background-color: var(--white);
     border-radius: 136.5px/38.5px;
     height: 77px;
@@ -272,19 +275,19 @@
     width: 273px
 }
 
-.macbook-pro-9 .ellipse-8-u9uWE7,.macbook-pro-9 .ellipse-9-u9uWE7 {
+.common .ellipse-8-u9uWE7,.common .ellipse-9-u9uWE7 {
     border-radius: 145px/38.5px;
     left: 796px;
     width: 290px
 }
 
-.macbook-pro-9 .ellipse-9-u9uWE7 {
+.common .ellipse-9-u9uWE7 {
     border-radius: 113px/38.5px;
     left: 551px;
     width: 226px
 }
 
-.macbook-pro-9 .group-1-u9uWE7 {
+.common .group-1-u9uWE7 {
     background-color: transparent;
     height: 31px;
     left: 489px;
@@ -293,7 +296,7 @@
     width: 115px
 }
 
-.macbook-pro-9 .group-2-u9uWE7,.macbook-pro-9 .group-4-u9uWE7,.macbook-pro-9 .group-5-u9uWE7 {
+.common .group-2-u9uWE7,.common .group-4-u9uWE7,.common .group-5-u9uWE7 {
     background-color: transparent;
     height: 31px;
     left: 619px;
@@ -302,17 +305,17 @@
     width: 92px
 }
 
-.macbook-pro-9 .group-4-u9uWE7,.macbook-pro-9 .group-5-u9uWE7 {
+.common .group-4-u9uWE7,.common .group-5-u9uWE7 {
     left: 725px;
     width: 109px
 }
 
-.macbook-pro-9 .group-5-u9uWE7 {
+.common .group-5-u9uWE7 {
     left: 849px;
     width: 104px
 }
 
-.macbook-pro-9 .group-DRowfD,.macbook-pro-9 .group-u9uWE7 {
+.common .group-DRowfD,.common .group-u9uWE7 {
     background-color: transparent;
     height: 55px;
     position: absolute;
@@ -320,16 +323,16 @@
     width: 30px
 }
 
-.macbook-pro-9 .group-DRowfD {
+.common .group-DRowfD {
     left: 115px;
     transform: rotate(180deg)
 }
 
-.macbook-pro-9 .group-u9uWE7 {
+.common .group-u9uWE7 {
     left: 1298px
 }
 
-.macbook-pro-9 .img1-u9uWE7 {
+.common .img1-u9uWE7 {
     position: absolute;
     width: 546px;
     height: 556px;
@@ -337,7 +340,7 @@
     top: 406px
 }
 
-.macbook-pro-9 .img10-u9uWE7,.macbook-pro-9 .img11-u9uWE7,.macbook-pro-9 .img12-u9uWE7,.macbook-pro-9 .img13-u9uWE7,.macbook-pro-9 .img14-u9uWE7,.macbook-pro-9 .img15-u9uWE7,.macbook-pro-9 .img16-u9uWE7,.macbook-pro-9 .img17-u9uWE7,.macbook-pro-9 .img18-u9uWE7,.macbook-pro-9 .img19-u9uWE7,.macbook-pro-9 .img2-u9uWE7,.macbook-pro-9 .img20-u9uWE7,.macbook-pro-9 .img21-u9uWE7,.macbook-pro-9 .img22-u9uWE7,.macbook-pro-9 .img23-u9uWE7,.macbook-pro-9 .img24-u9uWE7,.macbook-pro-9 .img25-u9uWE7 {
+.common .img10-u9uWE7,.common .img11-u9uWE7,.common .img12-u9uWE7,.common .img13-u9uWE7,.common .img14-u9uWE7,.common .img15-u9uWE7,.common .img16-u9uWE7,.common .img17-u9uWE7,.common .img18-u9uWE7,.common .img19-u9uWE7,.common .img2-u9uWE7,.common .img20-u9uWE7,.common .img21-u9uWE7,.common .img22-u9uWE7,.common .img23-u9uWE7,.common .img24-u9uWE7,.common .img25-u9uWE7 {
     visibility: hidden;
     background-color: transparent;
     height: 556px;
@@ -349,11 +352,11 @@
     width: 1096px
 }
 
-.macbook-pro-9 .img25-u9uWE7 {
+.common .img25-u9uWE7 {
     width: 546px
 }
 
-.macbook-pro-9 .img3-u9uWE7,.macbook-pro-9 .img4-u9uWE7,.macbook-pro-9 .img5-u9uWE7,.macbook-pro-9 .img6-u9uWE7,.macbook-pro-9 .img7-u9uWE7,.macbook-pro-9 .img8-u9uWE7,.macbook-pro-9 .img9-u9uWE7 {
+.common .img3-u9uWE7,.common .img4-u9uWE7,.common .img5-u9uWE7,.common .img6-u9uWE7,.common .img7-u9uWE7,.common .img8-u9uWE7,.common .img9-u9uWE7 {
     visibility: hidden;
     background-color: transparent;
     height: 556px;
@@ -365,7 +368,7 @@
     width: 1096px
 }
 
-.macbook-pro-9 .infozooru-u9uWE7 {
+.common .infozooru-u9uWE7 {
     background-color: transparent;
     height: auto;
     left: 62px;
@@ -379,7 +382,7 @@
     width: 244px
 }
 
-.macbook-pro-9 .line-14-u9uWE7 {
+.common .line-14-u9uWE7 {
     background-color: transparent;
     height: 295px;
     left: 719px;
@@ -388,7 +391,7 @@
     width: 1px
 }
 
-.macbook-pro-9 .line-15-u9uWE7,.macbook-pro-9 .line-16-u9uWE7 {
+.common .line-15-u9uWE7,.common .line-16-u9uWE7 {
     background-color: transparent;
     height: 1px;
     left: 843px;
@@ -397,13 +400,13 @@
     width: 536px
 }
 
-.macbook-pro-9 .line-16-u9uWE7 {
+.common .line-16-u9uWE7 {
     left: 1441px;
     top: 1037px;
     width: 1px
 }
 
-.macbook-pro-9 .line-17-u9uWE7,.macbook-pro-9 .line-2-DRowfD {
+.common .line-17-u9uWE7,.common .line-2-DRowfD {
     background-color: transparent;
     height: 1px;
     left: 0;
@@ -412,11 +415,11 @@
     width: 1440px
 }
 
-.macbook-pro-9 .line-2-DRowfD {
+.common .line-2-DRowfD {
     top: 1131px
 }
 
-.macbook-pro-9 .line-2-u9uWE7,.macbook-pro-9 .line-3-u9uWE7,.macbook-pro-9 .line-30-u9uWE7 {
+.common .line-2-u9uWE7,.common .line-3-u9uWE7,.common .line-30-u9uWE7 {
     background-color: transparent;
     height: 1px;
     left: 0;
@@ -425,18 +428,18 @@
     width: 1440px
 }
 
-.macbook-pro-9 .line-3-u9uWE7,.macbook-pro-9 .line-30-u9uWE7 {
+.common .line-3-u9uWE7,.common .line-30-u9uWE7 {
     top: 1428px
 }
 
-.macbook-pro-9 .line-30-u9uWE7 {
+.common .line-30-u9uWE7 {
     height: 556px;
     left: 718px;
     top: 406px;
     width: 1px
 }
 
-.macbook-pro-9 .rectangle-48-Vs9FLE,.macbook-pro-9 .rectangle-49-hsGVdl,.macbook-pro-9 .rectangle-51-44Rxoq,.macbook-pro-9 .rectangle-52-GmpT2V {
+.common .rectangle-48-Vs9FLE,.common .rectangle-49-hsGVdl,.common .rectangle-51-44Rxoq,.common .rectangle-52-GmpT2V {
     background-color: transparent;
     border-radius: 22px;
     height: 33px;
@@ -447,19 +450,19 @@
     width: 115px
 }
 
-.macbook-pro-9 .rectangle-49-hsGVdl,.macbook-pro-9 .rectangle-51-44Rxoq,.macbook-pro-9 .rectangle-52-GmpT2V {
+.common .rectangle-49-hsGVdl,.common .rectangle-51-44Rxoq,.common .rectangle-52-GmpT2V {
     width: 92px
 }
 
-.macbook-pro-9 .rectangle-51-44Rxoq,.macbook-pro-9 .rectangle-52-GmpT2V {
+.common .rectangle-51-44Rxoq,.common .rectangle-52-GmpT2V {
     width: 109px
 }
 
-.macbook-pro-9 .rectangle-52-GmpT2V {
+.common .rectangle-52-GmpT2V {
     width: 104px
 }
 
-.macbook-pro-9 .screenshot-2020-12-06-at-1708-1-u9uWE7,.macbook-pro-9 .screenshot-2020-12-06-at-1708-2-u9uWE7 {
+.common .screenshot-2020-12-06-at-1708-1-u9uWE7,.common .screenshot-2020-12-06-at-1708-2-u9uWE7 {
     background-color: transparent;
     height: 58px;
     left: 82px;
@@ -470,13 +473,13 @@
     width: 49px
 }
 
-.macbook-pro-9 .screenshot-2020-12-06-at-1708-2-u9uWE7 {
+.common .screenshot-2020-12-06-at-1708-2-u9uWE7 {
     height: 47px;
     top: 1433px;
     width: 39px
 }
 
-.macbook-pro-9 .textlabel-44Rxoq,.macbook-pro-9 .textlabel-4B1V5j,.macbook-pro-9 .textlabel-6UcSsv,.macbook-pro-9 .textlabel-DRowfD {
+.common .textlabel-44Rxoq,.common .textlabel-4B1V5j,.common .textlabel-6UcSsv,.common .textlabel-DRowfD {
     background-color: transparent;
     height: auto;
     left: 17px;
@@ -489,22 +492,22 @@
     width: auto
 }
 
-.macbook-pro-9 .textlabel-4B1V5j,.macbook-pro-9 .textlabel-6UcSsv,.macbook-pro-9 .textlabel-DRowfD {
+.common .textlabel-4B1V5j,.common .textlabel-6UcSsv,.common .textlabel-DRowfD {
     left: 843px;
     top: 1202px
 }
 
-.macbook-pro-9 .textlabel-6UcSsv,.macbook-pro-9 .textlabel-DRowfD {
+.common .textlabel-6UcSsv,.common .textlabel-DRowfD {
     left: 125px;
     top: 308px
 }
 
-.macbook-pro-9 .textlabel-DRowfD {
+.common .textlabel-DRowfD {
     left: 395px;
     top: 1202px
 }
 
-.macbook-pro-9 .textlabel-GmpT2V,.macbook-pro-9 .textlabel-Vs9FLE,.macbook-pro-9 .textlabel-ax5jIx,.macbook-pro-9 .textlabel-hsGVdl,.macbook-pro-9 .textlabel-iMLMJS {
+.common .textlabel-GmpT2V,.common .textlabel-Vs9FLE,.common .textlabel-ax5jIx,.common .textlabel-hsGVdl,.common .textlabel-iMLMJS {
     background-color: transparent;
     height: auto;
     left: 18px;
@@ -517,17 +520,17 @@
     width: auto
 }
 
-.macbook-pro-9 .textlabel-ax5jIx,.macbook-pro-9 .textlabel-hsGVdl,.macbook-pro-9 .textlabel-iMLMJS {
+.common .textlabel-ax5jIx,.common .textlabel-hsGVdl,.common .textlabel-iMLMJS {
     left: 1185px;
     top: 1031px
 }
 
-.macbook-pro-9 .textlabel-hsGVdl,.macbook-pro-9 .textlabel-iMLMJS {
+.common .textlabel-hsGVdl,.common .textlabel-iMLMJS {
     left: 17px;
     top: 8px
 }
 
-.macbook-pro-9 .textlabel-iMLMJS {
+.common .textlabel-iMLMJS {
     color: var(--black);
     font-family: var(--font-family-kyivtype_sans-bold3);
     font-size: var(--font-size-xl);
@@ -539,7 +542,7 @@
     width: 482px
 }
 
-.macbook-pro-9 .textlabel-n4LuM0,.macbook-pro-9 .textlabel-p0A5AH,.macbook-pro-9 .textlabel-u9uWE7 {
+.common .textlabel-n4LuM0,.common .textlabel-p0A5AH,.common .textlabel-u9uWE7 {
     background-color: transparent;
     height: auto;
     left: 869px;
@@ -552,16 +555,16 @@
     width: auto
 }
 
-.macbook-pro-9 .textlabel-p0A5AH,.macbook-pro-9 .textlabel-u9uWE7 {
+.common .textlabel-p0A5AH,.common .textlabel-u9uWE7 {
     left: 627px
 }
 
-.macbook-pro-9 .textlabel-u9uWE7 {
+.common .textlabel-u9uWE7 {
     left: 61px;
     top: 1202px
 }
 
-.macbook-pro-9 .vector-1-u9uWE7 {
+.common .vector-1-u9uWE7 {
     background-color: transparent;
     height: 20px;
     left: 1354px;
@@ -570,7 +573,7 @@
     width: 26px
 }
 
-.macbook-pro-9 .vector-7pQ5NP,.macbook-pro-9 .vector-zNB76x {
+.common .vector-7pQ5NP,.common .vector-zNB76x {
     background-color: transparent;
     height: 55px;
     mix-blend-mode: normal;
@@ -579,15 +582,15 @@
     width: 30px
 }
 
-.macbook-pro-9 .vector-7pQ5NP {
+.common .vector-7pQ5NP {
     left: 0
 }
 
-.macbook-pro-9 .vector-zNB76x {
+.common .vector-zNB76x {
     transform: rotate(-180deg)
 }
 
-.macbook-pro-9 .x1-u9uWE7,.macbook-pro-9 .x11002300-u9uWE7,.macbook-pro-9 .x2021-u9uWE7,.macbook-pro-9 .x7-495-034-12-32-u9uWE7,.macbook-pro-9 .x9002200-u9uWE7 {
+.common .x1-u9uWE7,.common .x11002300-u9uWE7,.common .x2021-u9uWE7,.common .x7-495-034-12-32-u9uWE7,.common .x9002200-u9uWE7 {
     background-color: transparent;
     height: auto;
     left: 62px;
@@ -601,22 +604,22 @@
     width: 244px
 }
 
-.macbook-pro-9 .x11002300-u9uWE7,.macbook-pro-9 .x2021-u9uWE7,.macbook-pro-9 .x7-495-034-12-32-u9uWE7,.macbook-pro-9 .x9002200-u9uWE7 {
+.common .x11002300-u9uWE7,.common .x2021-u9uWE7,.common .x7-495-034-12-32-u9uWE7,.common .x9002200-u9uWE7 {
     left: 396px
 }
 
-.macbook-pro-9 .x2021-u9uWE7,.macbook-pro-9 .x7-495-034-12-32-u9uWE7,.macbook-pro-9 .x9002200-u9uWE7 {
+.common .x2021-u9uWE7,.common .x7-495-034-12-32-u9uWE7,.common .x9002200-u9uWE7 {
     left: 277px;
     top: 1440px;
     width: 161px
 }
 
-.macbook-pro-9 .x7-495-034-12-32-u9uWE7,.macbook-pro-9 .x9002200-u9uWE7 {
+.common .x7-495-034-12-32-u9uWE7,.common .x9002200-u9uWE7 {
     left: 62px;
     top: 1247px;
     width: 244px
 }
 
-.macbook-pro-9 .x9002200-u9uWE7 {
+.common .x9002200-u9uWE7 {
     left: 396px
 }
