@@ -410,6 +410,7 @@
 
 .macbook-pro-5 .rectangle-57-ilduQg {
     animation: 3s anim1 1s;
+    animation-fill-mode: forwards;
     left: 504px;
     top: 430px;
     background-color: #ff8ce3;
@@ -420,6 +421,7 @@
 
 .macbook-pro-5 .rectangle-63-ilduQg {
     animation: 3s anim2 1s;
+    animation-fill-mode: forwards;
     background-color: #f2ed17;
     height: 253px;
     transform: rotate(6.51deg);
